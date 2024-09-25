@@ -16,18 +16,3 @@ document.getElementById('blog-btn').addEventListener('click', function() {
 function closeAlert(){
     let popup = document.querySelector('.popup').classList.add('hidden');
 }
-// ----------->popup
-document.getElementById('btn-donation').addEventListener('click',function(){
-    let popup = document.querySelector('.popup').classList.remove('hidden')
-    return popup;
-})
-// second--->
-document.getElementById('btn-f-flood').addEventListener('click',function(){
-    let popup = document.querySelector('.popup').classList.remove('hidden')
-    return popup;
-})
-// third-------->
-document.getElementById('btn-quota').addEventListener('click',function(){
-    let popup = document.querySelector('.popup').classList.remove('hidden')
-    return popup;
-})
