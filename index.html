@@ -42,7 +42,7 @@
 </head>
 <body>
       <header class="sticky top-0">
-      <nav class="bg-book-color px-4  md:px-16 pt-3 pb-10 mb-10 ">
+      <nav class="bg-book-color px-4  md:px-16 pt-3 pb-10  ">
         <div class="flex justify-between items-center">
            <button id="blog-btn" class="btn font-bold bg-btn-color px-8 ">Blog</button>
            <div class=" hidden md:flex items-center gap-3 ">
@@ -56,7 +56,7 @@
            </div>
         </div>
        </nav>
-       <div class="flex justify-center gap-6 bg-opacity-5 bg-gray-100">
+       <div class="flex justify-center gap-6 bg-opacity-5 bg-gray-100 backdrop-blur-md pt-12 ">
         <button id="donation-tab" class="btn   btn-lg text-xl px-8 bg-btn-color ">donation </button>
         <button id="history-tab" class="border btn-lg text-xl px-8 btn border-green  py-2 rounded-md">history</button>
       </div>
@@ -75,7 +75,7 @@
 <section id="donation-from" class="">
 
   <!-- first start -->
-  <div class="grid grid-cols-1 lg:grid-cols-2  p-6 mx-8 md:mx-20 lg:mx-40  mt-10 items-center gap-6 shadow-xl rounded-xl ">
+  <div class="grid grid-cols-1 lg:grid-cols-2  p-6 mx-8 md:mx-20 lg:mx-40  mt-4 items-center gap-6 shadow-xl rounded-xl ">
     <div class="w-full flex justify-center"><img src="./assets/noakhali.png" alt=""></div>
     <div class="space-y-2 xl:space-y-5">
       <button class="flex items-center gap-2 bg-gray-200 px-3 py-1 rounded-md ">
@@ -124,8 +124,8 @@
 </section>
 
 <section id="history-form" class=" mt-6 hidden ">
-   <h1 class="text-3xl font-bold text-center  mb-10 ">Transaction history</h1>
-   <div id="transaction-history" class="text-center bg-green-50 grid gap-5 mx-0 md:mx-16 lg:mx-24">
+   <h1 class="text-3xl font-bold text-center text-red-500 mb-10 ">Transaction history</h1>
+   <div id="transaction-history" class="text-center bg-green-50 grid gap-5 border-2 border-green-200 mx-0 md:mx-16 lg:mx-24">
     
    </div>
 </section>
